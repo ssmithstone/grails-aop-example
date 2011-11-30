@@ -11,7 +11,7 @@
                            
     <aop:config proxy-target-class="true">
         <aop:aspect id="approval" ref="myAspect">
-            <!-- <aop:before method="doBefore" pointcut="execution(public void personalisedbooks.BookService.serviceMethod())"/> -->
+            <aop:before method="doBefore" pointcut="execution(public void personalisedbooks.BookService.serviceMethod())"/>
         </aop:aspect>
     </aop:config>
 
